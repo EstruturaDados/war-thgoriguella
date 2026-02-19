@@ -39,12 +39,12 @@ int main() {
                 if (totalterritorios < MAX_TERRITORIO) {
                     printf("Digite o nome do Territorio: ");
                     fgets(cadastros[totalterritorios].nome, MAX_STRING, stdin);
-                    // Remove o \n do final da string
+                    
                     cadastros[totalterritorios].nome[strcspn(cadastros[totalterritorios].nome, "\n")] = '\0';
 
                     printf("Digite a cor do Territorio: ");
                     fgets(cadastros[totalterritorios].cor, MAX_STRING, stdin);
-                    // Remove o \n do final da string
+                   
                     cadastros[totalterritorios].cor[strcspn(cadastros[totalterritorios].cor, "\n")] = '\0';
 
                     printf("Digite a quantidade da tropa: ");
