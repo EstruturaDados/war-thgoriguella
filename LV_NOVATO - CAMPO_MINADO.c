@@ -28,7 +28,7 @@ int main() {
         printf("1 - CADASTRAR NOVOS TERRITORIOS\n");
         printf("2 - LISTAR TERRITORIOS CADASTRADOS\n");
         printf("3 - SAIR\n");
-        printf("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\n");
+        printf("-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\n\n");
         printf("ESCOLHA UMA OPCAO: ");
 
         scanf("%d", &opcao);
@@ -78,7 +78,7 @@ int main() {
                 break;
 
             case 3:
-                printf("Saindo...\n");
+                printf("Saindo...\n\n");
                 break;
 
             default:
